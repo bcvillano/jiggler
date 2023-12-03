@@ -44,7 +44,7 @@ def jiggle():
 def main():
     while True: #Program runs until manually stopped
         jiggle()
-        seconds = randomize_time()
+        seconds = randomize_time(1,10)
         time.sleep(seconds) #Waits for seconds amount of time before running next iteration of loop
         
 if __name__ == "__main__":
